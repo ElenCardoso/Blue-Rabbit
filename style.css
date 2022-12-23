@@ -1,0 +1,553 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Cabolafe', sans-serif;
+  /* font-family: 'Steelfish Outline', sans-serif; */
+  background-color: #f1f2fa;
+  /* overflow: hidden; */
+  
+}
+
+h1{
+  font-size: 4em;
+  color:#6b6b6b;
+  align-items: center;
+}
+
+h3{
+  font-size: 2em;
+  color: #6b6b6b;
+  align-items: center;
+  padding-right: 50px;
+}
+
+/* .header-bckgrd{
+  background: url(ts.png) no-repeat center center fixed;
+  background-size: cover;
+} */
+
+.navbar{
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.blue-rabbit-title{
+  color: #2185D5;
+}
+.cta-button{
+/*  display: flex;*/
+  align-items: center;
+  justify-content: center;
+  margin-left: 360px;
+}
+
+.btn{
+  font-weight: 700;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: #2185D5;
+  border-color: #2185D5;
+}
+.btn-primary:hover{
+  background-color: #3A4750;
+  border-color: #3A4750;
+  border-width: 4px;
+}
+
+.carousel-item{
+  max-height: 100vh;
+  margin: auto;
+  transition: transform 2.6s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 2.6s;
+}
+
+.container .about-us{
+  align-items: center;
+  margin: auto;
+  max-width: 60vh;
+}
+
+.rec-slider-container {
+  max-width: 100vh;
+}
+
+/* .about-carousel {
+    background-color: rgba(0, 0, 0, 0.514);
+
+} */
+
+/* .products-carousel{
+  max-width: 100vh;
+  max-height: auto;
+  align-items: left;
+} */
+
+.about-team-header{
+  align-items: center;
+}
+
+.products-section1{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 600px 500px 600px 700px 700px; 
+  overflow: hidden;
+  justify-content: center;
+  
+}
+
+.grid-item1{
+  background-image: url(new-coll2-resized2.jpg);
+  background-size: cover;
+  width: 100%;
+  max-height: 100%;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+}
+
+.grid-item2{
+  background-image: url(hat-resized3.jpg);
+  background-size: cover;
+  width: 100%;
+  max-height: 100%;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.grid-item3{
+  background-image: url(hats3.jpg);
+  background-size: cover;
+  grid-column: span 2;
+  max-height: 100%;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+
+}
+
+.grid-item4{
+  background-image: url(cowboy-hats.jpg);
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  max-height: 90%;
+  grid-column: span 2;
+}
+
+.grid-item5{
+  background-image: url(black-white-col1.jpg);
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  max-height: 90%;
+  grid-column: span 2;
+}
+
+.grid-item6{
+  background-image: url(womens-hat.jpg);
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  max-height: 100%;
+  grid-column: span 1;
+  margin-bottom: 50px;
+}
+
+.grid-item7{
+  background-image: url(fedora-girl.jpg);
+  background-size: cover;
+  width: 100%;
+  max-height: 100%;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mens-formal-txt{
+  align-items: center;
+  font-size: 72px;
+  font-weight: 900;
+  color: #E9EDFB;
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+  margin-left: 20px;
+}
+
+.mens-caps-txt{
+  font-size: 72px;
+  font-weight: 900;
+  color: #1c2133;
+  justify-content: center;
+  margin: 168px;
+  margin-top: 350px;
+  display: flex;
+}
+
+.cowboy-txt{
+  font-size: 72px;
+  font-weight: 900;
+  color: #E9EDFB;
+  margin: 20px;
+  margin-top: 350px;
+  
+}
+
+.black-white-txt{
+  font-size: 72px;
+  font-weight: 900;
+  color: #1b1b1b;
+  margin-top: 287px;
+  margin-left: 20px;
+  
+}
+
+.womens-txt{
+  font-size: 72px;
+  font-weight: 900;
+  color: #E9EDFB;
+  margin-top: 337px;
+  margin-left: 20px;
+  
+}
+/* .grid-item2{
+  background-image: url(white-hat.jpg);
+  background-size: cover;
+  width: 100%;
+  max-height: 100%;
+} */
+
+/* .container.header{
+  margin: 0px 0px;
+} */
+
+.container.about-team-header{
+  width: 1500px;
+  height: 450px;
+  background: url(white-hat.jpg)center;
+  background-size: cover;
+  align-items: center;
+  
+
+}
+ .row-item-1{
+  font-size: 22px;
+ }
+
+/* Expertly Crafted Since 1935 */
+.container-fluid.crafted-since{ 
+position: relative;
+text-align: center;
+width: 911px;
+height: 77px;
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 77px;
+display: grid;
+grid-column-start: span 3;
+color: #E9EDFB;
+
+}
+ .container.flex-about{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  
+ }
+
+ .about-text-intro{
+  /* background-color: rgba(0, 0, 0, 0.514); */
+  color: #262523;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column: 1 / span 2;
+  margin-top: 20px;
+  
+  
+ }
+
+ .about-text-p{
+  font-size: 16px;
+  margin: 10px;
+  font-family: 'oswald regular';
+  color: #262523;
+  
+ }
+
+ .about-text-img{
+  grid-column: 3 / span 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-image: url(queen-hat.gif);
+  background-size: cover;
+ }
+
+ .container{
+  --bs-gutter-x: 0 rem;
+ }
+
+ .carousel-inner.history{
+  width: 400px;
+  max-height: 230px;
+  overflow: hidden;
+ }
+ .btn.btn-secondary{
+  --bs-btn-bg: #172761;
+ }
+
+ .CTA-home{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: 635px 350px;
+  /* grid-template-rows: 200px 100px; */
+  margin: 20px;
+ }
+
+ .CTA-text{
+  font-weight: 900;
+  font-size: 32px;
+  color: #172761;
+  
+ }
+
+.team-photos{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-team1{
+  background-image: url(hats2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 600px;
+  grid-row: 1 / span 2;
+
+}
+
+.grid-team2{
+  background-image: url(reception1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 300px;
+}
+
+.grid-team3{
+  background-image: url(team-photo-resize.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 550px;
+  grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.grid-team4{
+  background-image: url(seamstress1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 300px;
+  grid-column-start: 2;
+  grid-row: 2;
+
+}
+
+.home-banner1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.home-grid1{
+  background-image: url(hats-wall.jpg);
+  background-size: cover;
+  max-width: 100%;
+  height: 324px;
+  grid-column: span 2;
+}
+
+.home-grid2{
+  background-image: url(women-summer.jpg);
+  background-size: cover;
+  height: 478px;
+  grid-column-start: 2;
+  grid-auto-rows: 550px;
+}
+
+.home-banner-txt{
+  font-size: 90px;
+  font-weight: 900;
+  color: #43bee5;
+  margin-top: 138px;
+  margin-left: 52px;
+  text-transform: capitalize;
+  letter-spacing: 2.5px;
+  font-family: 'Cabolafe', sans-serif;                                     
+  text-align: center;
+}
+
+/* .home-banner-for-you{
+  color: #aab9ef;
+  font-size: 72px;
+  text-align: end;
+  text-transform: capitalize;
+  text-shadow: #1b1b1b;
+} */
+
+.summer-txt{
+  font-size: 62px;
+  font-weight: 700;
+  color: #262523;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Cabolafe', sans-serif;
+}
+
+.summer-txt-small{
+  font-size: 18px;
+  font-weight: 500;
+  color: #262523;
+  text-align: center;
+  margin: 10px;
+  font-family: 'oswald regular';
+  
+}
+
+.made-txt-small{
+  font-size: 18px;
+  font-weight: 500;
+  color: #262523;
+  text-align: center;
+  margin: 10px;
+  font-family: 'oswald regular';
+  
+ 
+}
+
+.made-txt{
+  font-size: 72px;
+  font-weight: 700;
+  color: #262523;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.home-grid3{
+  background-image: url(made-with-love.jpg);
+  background-size: cover;
+  grid-column-start: 1;
+  height: 478px;
+}
+
+.home-product-row{
+ display: grid;
+ grid-template-columns: 25% 25% 25% 25%;
+ /* grid-template-rows: 22% auto 22%; */
+ justify-content: center;
+ margin-top: 50px;
+ justify-items: center;
+ align-items: center;
+ font-family: 'oswald regular';
+}
+
+.card.border-light{
+  display: grid;
+  justify-self: center;
+  align-items: center;
+}
+
+.card{
+  --bs-card-bg: #f1f2fa;
+  border: #f1f2fa;
+  background-color: #f1f2fa;
+  margin: 20px;
+}
+
+.privacy-policy{
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 400px;
+  display: grid;
+
+  font-family: 'oswald regular';
+}
+
+.privacy-title{
+  font-family: 'cabolafe', sans-serif;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.policy-text1{
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.policy-text2{
+  align-items: center;
+  margin-top: 20px;
+  grid-column: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.policy-text3{
+  align-items: center;
+  margin-top: 20px;
+  grid-column: 2;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.policy-photos{
+  background-image: url(shop-front.jpg);
+  background-size: cover;
+ grid-row-start: 1;
+ grid-row-end: 3;
+  grid-column: span 1;
+  max-height: 400px; 
+}
+
+.policy-photos1{
+  background-image: url(tattoos.jpg);
+  background-size: cover;
+ grid-row-start: 2;
+ grid-row-end: 4;
+  grid-column: span 1;
+  max-height: 400px; 
+}
+
+.policy-photos2{
+  background-image: url(mannequin-head.jpg);
+  background-size: cover;
+  grid-row-start: 4;
+  grid-column: span 1;
+  max-height: 400px; 
+  
+}
